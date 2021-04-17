@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ACM-About</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+      <link href="assets/css/main.css" rel="stylesheet">
+	   <script src="assets/js/Chart.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ACM</a></li>
+            <li><a href="proftalks.html">PROFESSOR TALKS</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                role="button" aria-haspopup="true"
+                aria-expanded="false">
+                RESOURCES
+                <span class="caret"></span>
+              </a>
+            <ul class="dropdown-menu">
+                <li><a href="workshops.html">Past Workshops</a></li>
+                <li><a href="cs_resources.html">CS Guides</a></li>
+                <li><a href="interview_resources.html">Interviews</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="blue">
+	  <div class="container">
+		  <div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h1>ACM Professor Talks</h1>
+        <h4>An engaging event where professors share their research and interests outside of the classroom</h4>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!--  bluewrap -->
+
+  <div class="container">
+    <div class="row centered">
+      <h2><u>Past Talks</u></h2>
+      <div id="prof-talks">
+        <br />
+        <div class="row">
+          <div class="col-md-3">
+           <a data-toggle="modal" data-target="#oct2018">
+             <div class="panel panel-default">
+               <div class="panel-heading">Prof. Aylin Caliskan</strong></div>
+               <div class="panel-body">Bias in Machine Learning</div>
+             </div>
+           </a>
+           </div>
+         <div class="col-md-3">
+          <a data-toggle="modal" data-target="#nov2017">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. David James</strong></div>
+              <div class="panel-body">Making Music with Python</div>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-3">
+           <a data-toggle="modal" data-target="#oct2017">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Robert Pless</strong></div>
+              <div class="panel-body">TraffickCam</div>
+            </div>
+           </a>
+          </div>
+          <div class="col-md-3">
+            <a data-toggle="modal" data-target="#may2017">
+              <div class="panel panel-default">
+                <div class="panel-heading">Prof. Abdou Youssef</strong></div>
+                <div class="panel-body">Frontiers of Math Language Processing and Its Applications</div>
+              </div>
+            </a>
+          </div>
+        </div><!-- row -->
+
+        <div id="oct2018" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Aylin Caliskan<br /></h4>
+                  <h3>Bias in Machine Learning</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Dr. Aylin Caliskan talked about her projects and cool aspects of machine learning, including how bias in data sets can impact results.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div id="nov2017" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. David James<br /></h4>
+                  <h3>Making Music with Python</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Using the JythonMusic environment for music making and creative programming</p>
+                  <img src="assets/img/proftalks/james_nov17.png" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="oct2017" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Robert Pless<br /></h4>
+                  <h3>TraffickCam</h3>
+                </div>
+                <div class="modal-body">
+                  <p>TraffickCam is an app that uses crowdsourced snapshots of hotel rooms to help law enforcement locate victims and prosecute sex traffickers.
+                  The app employs image analysis tools to identify hotel rooms used for suspected sex trafficking</p>
+                  <img src="assets/img/proftalks/pless_oct17.jpg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+         <div id="may2017" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Abdou Youssef<br /></h4>
+                  <h3>Frontiers of Math Language Processing and Its Applications</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Learn about Mathematical Language Processing (MLP) and how it can help scientists decode
+                  the meaning of undefined identifiers in mathematical formulae without studying the context</p>
+                <img src="assets/img/proftalks/youssef_may17.jpg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-md-3">
+           <a data-toggle="modal" data-target="#mar2017">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Claire Monteleoni</strong></div>
+              <div class="panel-body">A Taste of Machine Learning with Applications to Climate Science and Finance</div>
+            </div>
+           </a>
+          </div>
+          <div class="col-md-3">
+           <a data-toggle="modal" data-target="#feb2017">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Robert Pless</strong></div>
+              <div class="panel-body">Glitter and Geometry</div>
+            </div>
+           </a>
+          </div>
+         <div class="col-md-3">
+           <a data-toggle="modal" data-target="#oct2016">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Tim Wood</strong></div>
+              <div class="panel-body">Networking: What's between you and that cat video?</div>
+            </div>
+           </a>
+          </div>
+        <div class="col-md-3">
+           <a data-toggle="modal" data-target="#mar2016">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Gabe Parmer</strong></div>
+              <div class="panel-body">Enter Skynet: How the Machines Will Rise Up</div>
+            </div>
+           </a>
+          </div>
+        </div><!-- row -->
+
+          <div id="mar2017" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">March 2017: Prof. Claire Monteleoni<br /></h4>
+                  <h3>A Taste of Machine Learning with Applications to Climate Science and Finance</h3>
+                </div>
+                <div class="modal-body">
+                  <p>How does machine learning play a role in climate science and finance?</p>
+                  <img src="assets/img/proftalks/monteleoni_mar17.png" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="feb2017" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Robert Pless<br /></h4>
+                  <h3>Glitter and Geometry</h3>
+                </div>
+                <div class="modal-body">
+                  <p>SparkleGeometry: Glitter Imaging for 3D Point Tracking.
+                  Proposing an easy to construct physical prototype that estimates the 3D position of a moving point light source
+                  by viewing the changing sparkle patterns visible on a glitter sheet</p>
+                  <img src="assets/img/proftalks/pless_feb17.png" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="oct2016" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Tim Wood<br /></h4>
+                  <h3>Networking: What's between you and that cat video?</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Foundations of networking</p>
+                  <img src="assets/img/proftalks/wood_oct16.jpg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+        </div>
+         <div id="mar2016" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Gabe Parmer<br /></h4>
+                  <h3>Enter Skynet: How the Machines Will Rise Up</h3>
+                </div>
+                <div class="modal-body">
+                  <p>Embedded systems and the Internet of Things (IoT) are a Big Deal.
+                  They lurk in the world all around us, monitoring, collecting, and controlling.
+                  They stay hidden, waiting for the perfect time to STRIKE. What does a
+                  world look like that is increasingly integrated with technology, and what
+                  does it mean for computer scientists? In this talk, I'll discuss what
+                  embedded systems are, how they've evolved in their newest incarnation in IoT.
+                  Understanding this, we'll discuss their implications on privacy, human safety,
+                  and on programmers. Come willing to discuss, and welcome our future machine overlords.</p>
+                  <img src="assets/img/proftalks/parmer_mar16.jpg" width="80%" height="80%" />
+                  <p><a href="http://www.youtube.com/watch?v=QUvGEQEJR8c">Watch on YouTube</a><br >
+      			  <a href="https://www.facebook.com/events/992259074200958/">Facebook Event</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    	<div class="row">
+        <div class="col-md-3">
+           <a data-toggle="modal" data-target="#nov2015">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Tim Wood</strong></div>
+              <div class="panel-body">Big Data and Clouds: What's all the buzz?</div>
+            </div>
+           </a>
+          </div>
+         <div class="col-md-3">
+          <a data-toggle="modal" data-target="#apr2015">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Aaron Cohen</strong></div>
+              <div class="panel-body">SDR Digital Radio & Relay Models and the Design & Operation of the "Surrogate TACSAT"</div>
+            </div>
+          </a>
+          </div>
+    	  <div class="col-md-3">
+           <a data-toggle="modal" data-target="#mar2015">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Rahul Simha</strong></div>
+              <div class="panel-body">Artificial Intelligence and Chess</div>
+            </div>
+           </a>
+          </div>
+          <div class="col-md-3">
+           <a data-toggle="modal" data-target="#feb2015">
+            <div class="panel panel-default">
+              <div class="panel-heading">Prof. Poorvi Vora</strong></div>
+              <div class="panel-body">Demystifying the Shady Ethics of eBay Auctions</div>
+            </div>
+           </a>
+          </div>
+    	</div><!-- row -->
+
+    	<div id="nov2015" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">November 2015: Prof. Tim Wood<br /></h4>
+                  <h3>Big Data and Clouds: What's all the buzz?</h3>
+                </div>
+                <div class="modal-body">
+                  <p>This talk will look at two increasingly buzzwordy trends: Cloud Computing and Big Data.
+                  We will discuss how these new computing paradigms evolved, and how they are changing the way we develop and run software.
+                  We will have a hands-on session where we use the Hadoop Analytics platform and the Natural Language Toolkit
+                  to predict who will win the next presidential election.
+                  Bring your laptop!</p>
+                  <img src="assets/img/proftalks/wood_nov15.png" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+    	<div id="apr2015" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">April 2015: Prof. Aaron Cohen<br /></h4>
+                  <h3>SDR Digital Radio & Relay Models and the Design & Operation of the "Surrogate TACSAT"</h3>
+                </div>
+                <div class="modal-body">
+                  <p>The Marine Corps has frequent requirements for beyond-line-of-sight communications
+                  for voice and narrowband data in challenging terrains that normally limit or truncate links.
+                  The NRL has developed VHF analog and software defined radio (SDR) relays that support narrowband
+                  communications using standard Marine Corps radios and has developed SDR radio models for the Marine Corps
+                  radios. The relay requirements are lightweight and designed to be borne aloft at altitudes above 65,000 ft.,
+                  providing connectivity to nodes as far as 150 nmi from the relay payload. This presentation documents the
+                  design of SDR digital radio and relay models and the design and the operation of the balloon-borne
+                  Arduino Mega2560 configured VHF analog relay, dubbed "Surrogate TACSAT", and details the analog relay's
+                  results from testing conducted out of Yuma Proving Ground in March of 2014.</p>
+                  <img src="assets/img/proftalks/cohen_apr15.jpg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+    	<div id="mar2015" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Rahul Simha<br /></h4>
+                  <h3>Artificial Intelligence and Chess</h3>
+                </div>
+                <div class="modal-body">
+                  <p>How computers win at chess and its implications for artificial intelligence.</p>
+                  <img src="assets/img/proftalks/simha_mar15.jpeg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+    	<div id="feb2015" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Prof. Poorvi Vora<br /></h4>
+                  <h3>Demystifying the Shady Ethics of eBay Auctions</h3>
+                </div>
+                <div class="modal-body">
+                  <p>eBay auctions are designed to extract information from the buyer at the seller’s advantage.
+                  Though eBay's second chance offer for expired auctions seems innocuous,
+                  it is really about making more money for the seller.</p>
+                  <img src="assets/img/proftalks/vora_feb15.jpg" width="80%" height="80%" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<a href="https://www.facebook.com/groups/gw.acm/?fref=ts"><i class="fa fa-facebook"></i>
+                <a href="https://github.com/gw-acm"><i class="fa fa-github"></i>
+            	</a>
+            </div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+
+
+	<!-- MODAL FOR CONTACT -->
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">contact us</h4>
+	      </div>
+	      <div class="modal-body">
+		        <div class="row centered">
+		        	<p>Feel free to contact any of the above members and join our Facebook group if you are interested!</p>
+		        	<p>
+
+		        	</p>
+		        	<div id="mapwrap">
+		<iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=52.752693,22.791016&amp;spn=67.34552,156.972656&amp;z=2&amp;output=embed"></iframe>
+					</div>
+		        </div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">Save & Go</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
